@@ -1,0 +1,61 @@
+{
+    "userlist": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "phone_number": "123-456-7890",
+        "role": "admin",
+        "username": "johndoe",
+        "password": "password123"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "phone_number": "987-654-3210",
+        "role": "student",
+        "username": "janesmith",
+        "password": "password456"
+      }
+    ],
+    "studentbooklist": [
+      {
+        "id": 1,
+        "bookname": "Introduction to Algorithms",
+        "authorname": "Thomas H. Cormen",
+        "status": "available"
+      },
+      {
+        "id": 2,
+        "bookname": "Clean Code",
+        "authorname": "Robert C. Martin",
+        "status": "borrowed"
+      },
+      {
+          "id": 2,
+          "bookname": " C+ Code",
+          "authorname": "Robert Marhew",
+          "status": "overdue"
+        }
+    ],
+    "borrowedtracking": [
+      {
+        "id":1,
+        "bookid": 2,
+        "userid": 2,
+        "borrowed_date": "2025-04-01",
+        "return_date": "2025-04-04",
+        "actual_return_date": null,
+        "overdue_amount": 0
+      },
+      {
+          "id":2,
+          "bookid": 1,
+          "userid": 1,
+          "borrowed_date": "2025-04-01",
+          "return_date": "2025-04-04",
+          "actual_return_date": "2025-04-05",
+          "overdue_amount": 20
+        }
+    ]
+  }
+  
