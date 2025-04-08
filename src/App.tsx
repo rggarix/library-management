@@ -4,7 +4,7 @@ import Login from '../Components/Login/Login';
 import Home from '../Components/Home';
 
 const App : React.FC = () => {
-  
+  console.log("Rajat")
 
   return (
     <div style={{
